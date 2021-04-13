@@ -10,6 +10,7 @@
 		<PackageProjectUrl>https://github.com/Forethic/Rhinoceros.Nuget.git</PackageProjectUrl>
 		<PackageReleaseNotes>第一次发布，无内容</PackageReleaseNotes>
 		<PackageTags>Rhinoceros MVVM</PackageTags>
+		<Version>1.0.5</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -17,6 +18,29 @@
 			<Pack>true</Pack>
 			<PackagePath>\</PackagePath>
 		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="tools\install.ps1">
+			<Pack>true</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Update="tools\uninstall.ps1">
+			<Pack>true</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Update="tools\RhinocerosCommand.snippet">
+			<Pack>true</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Update="tools\RhinocerosParamCommand.snippet">
+			<Pack>true</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Update="tools\RhinocerosProperty.snippet">
+			<Pack>true</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
 	</ItemGroup>
 
 </Project>
