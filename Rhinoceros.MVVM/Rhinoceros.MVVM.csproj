@@ -8,7 +8,7 @@
 		<Copyright>2021</Copyright>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageProjectUrl>https://github.com/Forethic/Rhinoceros.Nuget.git</PackageProjectUrl>
-		<PackageReleaseNotes>第一次发布，无内容</PackageReleaseNotes>
+		<PackageReleaseNotes>最最基本的框架内容已填空</PackageReleaseNotes>
 		<PackageTags>Rhinoceros MVVM</PackageTags>
 		<Version>1.0.5</Version>
 	</PropertyGroup>
