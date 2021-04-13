@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Authors>Forethic.Lia</Authors>
+		<Description>基本 MVVM 框架</Description>
+		<Copyright>2021</Copyright>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/Forethic/Rhinoceros.Nuget.git</PackageProjectUrl>
+		<PackageReleaseNotes>第一次发布，无内容</PackageReleaseNotes>
+		<PackageTags>Rhinoceros MVVM</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="content\ReadMe.txt">
+			<Pack>true</Pack>
+			<PackagePath>\</PackagePath>
+		</Content>
+	</ItemGroup>
+
+</Project>
